@@ -1,0 +1,3 @@
+- If faced with an error saying "iam.serviceAccounts.create" and the service account is already created, change the default value of "create_service_account" var in .terraform/modules/gke/variables.tf to "false"
+- if faced with Legacy monitoring version, change the upgrade the version to 6.2.0 or higher.
+- Variables defined here are specific to this project, kindly change as per the requirement.

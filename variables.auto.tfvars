@@ -1,0 +1,11 @@
+credentials        = "./terraform-gke-keyfile.json"
+project_id         = "react-kubernetes-cluster"
+region             = "us-central1"
+zones              = ["us-central1-c"]
+name               = "multi-cluster"
+machine_type       = "n1-standard-1"
+min_count          = 1
+max_count          = 3
+disk_size_gb       = 10
+service_account    = "terraform-gke@react-kubernetes-cluster.iam.gserviceaccount.com"
+initial_node_count = 3
